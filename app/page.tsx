@@ -391,7 +391,7 @@ export default function Home() {
       </p>
 
       <div className="mt-5 flex flex-wrap gap-2">
-        {["C++", "Python", "Java", "SQL"].map((skill) => (
+        {["C++", "Python", "Java", "SQL", "TypeScript",].map((skill) => (
           <span
             key={skill}
             className="rounded-full border border-zinc-800 px-4 py-2 text-sm text-zinc-300"
