@@ -170,41 +170,7 @@ export default function Home() {
 
   <div className="grid gap-5 sm:grid-cols-2">
 
-    {/* Project 1 — CNN */}
-    <article className="group overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 transition hover:-translate-y-1 hover:border-zinc-700">
-      <Link href="/projects/cnn" className="block">
-        <div className="flex aspect-video items-end bg-zinc-900 p-6">
-          <span className="text-xs tracking-[0.2em] text-zinc-600">
-              PYTHON · TENSORFLOW · COMPUTER VISION
-          </span>
-        </div>
-      </Link>
-
-      <div className="p-8">
-        <p className="mb-8 text-sm text-zinc-600">02</p>
-
-        <Link href="/projects/cnn">
-          <h3 className="text-2xl font-semibold transition group-hover:text-zinc-300">
-            CNN Sign Language Recognition
-          </h3>
-        </Link>
-
-        <p className="mt-4 leading-7 text-zinc-400">
-          Developed a Convolutional Neural Network model to recognize
-          American Sign Language (ASL) hand gestures from image data.
-        </p>
-
-        <p className="mt-6 text-sm text-zinc-500">
-          Python · TensorFlow · Keras · OpenCV · NumPy
-        </p>
-
-        <p className="mt-4 text-sm text-zinc-600">
-          ~97% Validation Accuracy · F1 Score &gt; 0.99
-        </p>
-      </div>
-    </article>
-
-    {/* Project 2 — Expense Tracker */}
+    {/* Project 1 — ExpenseTracker */}
     <article className="group overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 transition hover:-translate-y-1 hover:border-zinc-700">
       <Link href="/projects/expense-tracker" className="block">
         <div className="flex aspect-video items-end bg-zinc-900 p-6">
@@ -241,6 +207,40 @@ export default function Home() {
         >
           View GitHub ↗
         </a>
+      </div>
+    </article>
+
+    {/* Project 2 — CNN */}
+    <article className="group overflow-hidden rounded-2xl border border-zinc-900 bg-zinc-950 transition hover:-translate-y-1 hover:border-zinc-700">
+      <Link href="/projects/cnn" className="block">
+        <div className="flex aspect-video items-end bg-zinc-900 p-6">
+          <span className="text-xs tracking-[0.2em] text-zinc-600">
+              PYTHON · TENSORFLOW · COMPUTER VISION
+          </span>
+        </div>
+      </Link>
+
+      <div className="p-8">
+        <p className="mb-8 text-sm text-zinc-600">02</p>
+
+        <Link href="/projects/cnn">
+          <h3 className="text-2xl font-semibold transition group-hover:text-zinc-300">
+            CNN Sign Language Recognition
+          </h3>
+        </Link>
+
+        <p className="mt-4 leading-7 text-zinc-400">
+          Developed a Convolutional Neural Network model to recognize
+          American Sign Language (ASL) hand gestures from image data.
+        </p>
+
+        <p className="mt-6 text-sm text-zinc-500">
+          Python · TensorFlow · Keras · OpenCV · NumPy
+        </p>
+
+        <p className="mt-4 text-sm text-zinc-600">
+          ~97% Validation Accuracy · F1 Score &gt; 0.99
+        </p>
       </div>
     </article>
 
