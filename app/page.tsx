@@ -43,7 +43,7 @@ export default function Home() {
     </a>
 
     <a
-      href="/projects/cv/Vincent_Hon-CV.pdf"
+      href="/projects/cv/CV_Vincent Hon.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="ml-4 rounded-full border border-zinc-700 px-5 py-2.5 text-sm text-white transition hover:border-zinc-500"
